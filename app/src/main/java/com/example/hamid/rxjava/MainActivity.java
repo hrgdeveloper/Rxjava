@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         tv_test=(TextView)findViewById(R.id.tv_test);
         Toast.makeText(getApplicationContext(), "salam", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "toast 2", Toast.LENGTH_SHORT).show();
          Observable<String> items = getObservable();
 
          Observer<String> whatToDo = getObserver();
